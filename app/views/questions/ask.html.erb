@@ -1,0 +1,10 @@
+<h1>Pergunte ao Coaching!</h1>
+
+<form action="answer" data-turbo="false">
+  <input type="text" name="answer" value="<%= params[:answer] %>" placeholder="What's your question?">
+  <input type="submit" >
+</form>
+
+
+<%# A primeira página é um formulário com uma entrada, onde um usuário pode digitar uma pergunta para fazer ao Coach
+Após o envio do formulário, o usuário é redirecionado para outra página onde verá sua pergunta e a resposta do coach. %>
